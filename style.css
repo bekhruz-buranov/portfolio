@@ -1,0 +1,132 @@
+body {
+    background-color: lightblue;
+    background: linear-gradient(to bottom, red, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+    transition: 0.3s;
+}
+h1:hover{
+    color: tomato;
+    transform: scale(1.1);
+}
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0 4px 10xp grey;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px grey;
+}
+.card{
+    width: 500px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+}
+.youtube{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 10xp grey;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.youtube:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px grey;
+}
+.google{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    box-shadow: 0 4px 10xp grey;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: lightpink;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px grey;
+}
+img{
+    width: 350px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+.card{
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+.card p{
+    font-size: 20px;
+}
+.card li{
+    font-size: 18px;
+}
+h1{
+    font-size: 45px;
+}
+@media (max-width: 600px) {
+    .card{
+        width: 90%;
+        padding: 20px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .card p,
+    .card li{
+        font-size: 16px;
+    }
+    .buttons a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
